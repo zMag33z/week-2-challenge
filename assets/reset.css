@@ -1,0 +1,31 @@
+:root {
+    --WordBox: rgb(63, 186, 202);
+    --BoxWord: black;
+    --MainFont: rgb(28, 48, 92);
+    --TopFont: rgb(63, 186, 202);
+    --BorderLine:  rgb(28, 48, 92);
+    --HFBG: black;
+}
+
+html {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 992px) {
+    .card {
+      width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+}
