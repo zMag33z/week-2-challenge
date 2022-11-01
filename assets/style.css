@@ -1,27 +1,25 @@
-
+/* First Section.  Header. */
 header {
-    display: flex;
     background-color: var(--HFBG);
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    justify-content: space-between;
     padding: 10px;
+    
 }
 
 h1 {
     color: var(--BoxWord);
     font-size: 300%;
     background-color: var(--WordBox);
-    
-    
+    display: inline-block;
+        
 }
 
-nav {
-   margin-right: var(--Space); 
+.nav {
+    float: right;
+    margin-right: var(--Space); 
 }
 
-a {
+/* Two areas use 'a'. First class. */
+.a1 {
     color: var(--TopFont);
     font-size: 110%;
     text-decoration: none;
@@ -32,15 +30,16 @@ a {
     margin-top: 15px;
     margin-left: 10px;
     display: inline-block;
+    
 }
 
+/* Second Section.  Image BG. */
 .BGSectionImg {
     height: 200px;
     width: 100%;
     background-image: url("./images/fshinstartrials.jpg");
     background-size: cover;
     background-position: center;
-    margin-bottom: 20px;
 }
 
 h2 {
@@ -52,83 +51,142 @@ h2 {
     margin-right: var(--Space); 
 }
 
+/* Third Section.  Main:  About Me, Work, Contact. */
 main {
     margin-right: var(--Space);
     margin-left: var(--Space);
-    display:inline-block;
+    display: inline-block;    
 }
 
-section {
-    margin: 30px;
+.container1 {
+    margin-top: 30px;
+    width: 1753px;
+    display: inline-block;    
 }
 
-.borderbox {
-    border-right-color: var(--BorderLine);
-    border-right-style: solid;
-    border-width: 5px;
+/* located how i want them */
+h3 {
+    color: var(--MainFont);
+    font-size: 300%;
+    text-align: justify;
+    direction: rtl;
+    width: 257px;
+    padding-right: 10px;
+    margin-bottom: 30px;
+    vertical-align: top;
+    display: inline-block;
 }
 
 article {
+    width: 1492px;
     border-left-color: var(--BorderLine);
     border-left-style: solid;
     border-width: 5px;
     display: inline-block;
 }
 
-h3 {
-    color: var(--MainFont);
-    font-size: 300%;
-    border-right-color: var(--BorderLine);
-    border-right-style: solid;
-    border-width: 5px;
-    padding-right: 10px;
-    display: inline-block;   
-}
- .article {
-    color: black;
+.p1 {
     margin-left: 30px;
-    margin-top: 0;
+    color: black;
     margin-bottom: 10px;
- }
+    
+}
 
-img {
+/* Other sections top space. */
+.topspace {
+    margin-top: 30px;
+}
+
+/* Container width and inline with section description. */
+.WorkContent {
+    width: 1492px;
+    border-left-color: var(--BorderLine);
+    border-left-style: solid;
+    border-width: 5px;
+    display: inline-block;    
+}
+
+.lgTagFloat {
+    max-height: 700px;
+    max-width: 1456px;
     position: relative;
+}
+
+.smTagFloat {
+    max-height: 350px;
+    max-width: 741px;
+    margin-top: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+/* all images have a border and can sit next to eachother. */
+img {
     border-color: var(--WordBox);
     border-style: solid;
     border-width: 5px;
+    display: inline-block;
 }
 
-.lgTopic {
-    
+.lgTopic {   
     height: 700px;
-    width: 1400px;
-    display: inline-block;
+    width: 1456px;
+    margin-left: 30px;    
 }
 
 .smTopic {
-    
     height: 350px;
-    width:700px;
-    margin-top: 10px; 
-    display: inline-block;
+    width: 711px;
+    margin-left: 30px;    
+}
+/* Div class */
+.tag {
+    position: absolute;
+    bottom: 120px;
+    left: 35px;
 }
 
 h4 {
-    position: absolute;
-    left: 0;
     color: var(--BoxWord);
     font-size: 150%;
+    padding: 1px 5px 30px 5px;
     background-color: var(--WordBox);
-    display: inline-block;
-
-}
-
-.descript {
     position: absolute;
-    left: 0;
+}
+
+.p2 {
+    position: absolute;
+    top: 30px;
+    left: 2px;
+}
+
+/* a class */
+.nav2 {
+    width: 1492px;
+    margin-bottom: 30px;
+    border-left-color: var(--BorderLine);
+    border-left-style: solid;
+    border-width: 5px;
+    vertical-align: bottom;
+    text-align: right;
     display: inline-block;
 }
 
+/* Two areas use 'a'.  Second Class. */
+.a2 {
+    color: var(--BoxWord);
+    font-size: 110%;
+    text-decoration: none;
+    padding: 15px;
+    margin-right: 150px;
+    border-bottom-color: var(--BorderLine);
+    border-bottom-style: solid;
+    border-width: 5px;
+    
+    display: inline-block;
+}
+
+/* Everything below good. */
 footer {
     background-color: var(--HFBG);
     text-align: center;
