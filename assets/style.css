@@ -65,6 +65,7 @@ h2 {
 /* Third Section.  Main:  About Me, Work, Contact. */
 main {
     margin-left: var(--Space);
+    margin-right: var(--Space);
     display: inline-block;    
 }
 /* Each topic has it's own box with top spacing. */
