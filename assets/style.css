@@ -1,10 +1,12 @@
+body {
+    background-color: rgb(217, 221, 226);
+}
 /* First Section.  Header. */
 header {
     background-color: var(--HFBG);
-    padding: 10px;
-    
+    padding: 10px;  
 }
-
+/* My name top left. */
 h1 {
     color: var(--BoxWord);
     font-size: 300%;
@@ -12,7 +14,7 @@ h1 {
     display: inline-block;
         
 }
-
+/* Navigation to topics. */
 .nav {
     float: right;
     margin-right: var(--Space); 
@@ -33,15 +35,14 @@ h1 {
     
 }
 
-/* Second Section.  Image BG. */
+/* Second Section.  Image BG with a nick tag. */
 .BGSectionImg {
     height: 200px;
-    width: 100%;
     background-image: url("./images/fshinstartrials.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: 1% 80%;
 }
-
+/* This is the nick tag. */
 h2 {
     color: var(--BoxWord);
     font-size: 250%;
@@ -57,79 +58,62 @@ main {
     margin-left: var(--Space);
     display: inline-block;    
 }
-
-.container1 {
-    margin-top: 30px;
-    width: 1753px;
-    display: inline-block;    
+/* Each topic has it's own box with top spacing. */
+.Content {
+    margin-top: 30px;    
 }
-
-/* located how i want them */
+/* Used as topic tabs to the left of main topics. */
 h3 {
     color: var(--MainFont);
     font-size: 300%;
-    text-align: justify;
-    direction: rtl;
-    width: 257px;
-    padding-right: 10px;
-    margin-bottom: 30px;
+    text-align: right;
+    width: 247px;
+    margin: 0px 10px 30px 0px;
     vertical-align: top;
     display: inline-block;
 }
-
+/* Container for paragraphs on About Me. */
 article {
-    width: 1492px;
+    max-width: 1492px;
     border-left-color: var(--BorderLine);
     border-left-style: solid;
     border-width: 5px;
     display: inline-block;
 }
-
+/* Paragraphs */
 .p1 {
     margin-left: 30px;
     color: black;
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px;   
 }
-
-/* Other sections top space. */
-.topspace {
-    margin-top: 30px;
-}
-
 /* Container width and inline with section description. */
 .WorkContent {
-    width: 1492px;
+    max-width: 1492px;
     border-left-color: var(--BorderLine);
     border-left-style: solid;
     border-width: 5px;
-    display: inline-block;    
+    display: inline-block;
 }
-
+/* Container for larger image tag float. */
 .lgTagFloat {
-    max-height: 700px;
-    max-width: 1456px;
     position: relative;
 }
-
+/* Container for smaller image tag float. */
 .smTagFloat {
-    max-height: 350px;
-    max-width: 741px;
     margin-top: 30px;
     position: relative;
     display: inline-block;
 }
-
-/* all images have a border and can sit next to eachother. */
+/* Only images used.  Classed 'img' directly by selecting. */
 img {
     border-color: var(--WordBox);
     border-style: solid;
     border-width: 5px;
     display: inline-block;
 }
-
+/* Larger image space left. */
 .lgTopic {   
-    height: 700px;
+    height: 856px;
     width: 1456px;
     margin-left: 30px;    
 }
@@ -137,15 +121,17 @@ img {
 .smTopic {
     height: 350px;
     width: 711px;
+    object-fit: cover;
+    object-position: center bottom;
     margin-left: 30px;    
 }
-/* Div class */
+/* Position of tag within photos. */
 .tag {
     position: absolute;
     bottom: 120px;
     left: 35px;
 }
-
+/* Used because it's bold. */
 h4 {
     color: var(--BoxWord);
     font-size: 150%;
@@ -153,17 +139,17 @@ h4 {
     background-color: var(--WordBox);
     position: absolute;
 }
-
+/* Used because it's not bold. */
 .p2 {
     position: absolute;
     top: 30px;
     left: 2px;
 }
 
-/* a class */
+/* Second navigation box for a links. */
 .nav2 {
-    width: 1492px;
     margin-bottom: 30px;
+    padding-left: 75px;
     border-left-color: var(--BorderLine);
     border-left-style: solid;
     border-width: 5px;
@@ -171,22 +157,21 @@ h4 {
     text-align: right;
     display: inline-block;
 }
-
 /* Two areas use 'a'.  Second Class. */
 .a2 {
     color: var(--BoxWord);
     font-size: 110%;
+    text-align: center;
     text-decoration: none;
-    padding: 15px;
-    margin-right: 150px;
+    padding: 15px 0px 15px 0px;
+    margin-left: 88px;
+    width: 165px;
     border-bottom-color: var(--BorderLine);
     border-bottom-style: solid;
     border-width: 5px;
-    
     display: inline-block;
 }
-
-/* Everything below good. */
+/* Footer fun. */
 footer {
     background-color: var(--HFBG);
     text-align: center;
@@ -195,3 +180,65 @@ footer {
 h5 {
     color: var(--TopFont);
 }
+
+/* New Display size. 
+@media screen and (max-width: 962px) {
+    h2 {
+        float: left;
+      }
+      .lgTopic {
+          width: 85%;
+          height: 85%;
+      }
+      .smTopic {
+          width: 85%;
+          height: 85%;
+      }
+  }
+
+/* New Display Size. 
+@media screen and (max-width: 768px) {
+    h2 {
+      float: left;
+    }
+    .lgTopic {
+        width: 444px;
+        height: 244px;
+    }
+    .smTopic {
+        width: 190px;
+        height: 120px;
+    }
+}
+
+/* New Display size. */
+@media screen and (max-width: 640px) {
+    * {
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 250%;
+    }  
+    h2 {
+        font-size: 200%;
+        float: left;
+    }
+    h3 {
+        font-size: 220%;
+        text-align: left;
+    }
+    .nav {
+        margin-right: 0px;
+    }
+    .nav2 {
+        margin-left: 0px;
+    }
+    .lgTopic {
+          width: 443px;
+          height: 25%;
+    }
+    .smTopic {
+          width: 25%;
+          height: 25%;
+    } 
+} 
