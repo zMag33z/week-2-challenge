@@ -35,4 +35,4 @@ This is my professional portfolio available for prospect employers to view.  The
 
 ## License
 
-### [MIT License Copyright (c) 2022](https://zmag33z.github.io/week-2-challenge/assets/license.md)
+### [MIT License Copyright (c) 2022](https://zmag33z.github.io/week-2-challenge/license.md)
