@@ -19,13 +19,13 @@ N/A
 
 This is my professional portfolio available for prospect employers to view.  There are a list of works created by me.  Also, included is a list my contact information.
 
-![Me](https://zmag33z.github.io/week-1-challenge/assets/images/me.png)
+![Me](https://zmag33z.github.io/week-2-challenge/assets/images/me.png)
 
-![About Me](https://zmag33z.github.io/week-1-challenge/assets/images/aboutme.png)
+![About Me](https://zmag33z.github.io/week-2-challenge/assets/images/aboutme.png)
 
-![Work](https://zmag33z.github.io/week-1-challenge/assets/images/works.png)
+![Work](https://zmag33z.github.io/week-2-challenge/assets/images/works.png)
 
-![Contact Me](https://zmag33z.github.io/week-1-challenge/assets/images/contact.png)
+![Contact Me](https://zmag33z.github.io/week-2-challenge/assets/images/contact.png)
 
 
 
