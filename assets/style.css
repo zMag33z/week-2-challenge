@@ -4,6 +4,9 @@ backward.  Should've started with flexbox added to my code instead of trying to
 implement it later.  You live, you learn.  In turn media queries don't flex well. */
 
 /* This is where the magic starts. */
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: rgb(217, 221, 226);
 }
@@ -126,6 +129,7 @@ img {
 .lgTopic {   
     height: 856px;
     width: 1456px;
+    object-fit: cover;
     margin-left: 30px;    
 }
 /* Smaller image scale, space left. */
@@ -135,24 +139,25 @@ img {
     object-fit: cover;
     margin-left: 30px;    
 }
-/* Position of tag within photos. */
+/* Position of tag within photos. This is where link for work is located ie: not the image. */
 .tag {
     position: absolute;
     top: 0px;
     left: 35px;
 }
-/* Second a link variant.  Also tied onto h4 which are used for unavailable links. */
+/* Second a link variant to Works.  Also tied onto h4 which are used for unavailable links. */
 .a2 {
     color: var(--BoxWord);
     font-size: 150%;
-    padding: 10px 5px 23px 5px;
+    text-decoration: none;
+    padding: 10px 10px 23px 5px;
     background-color: var(--WordBox);
     position: absolute;
 }
 /* Used because it's not bold. */
 .p2 {
     position: absolute;
-    top: 30px;
+    top: 33px;
     left: 2px;
 }
 /* Second navigation box for a links. */
