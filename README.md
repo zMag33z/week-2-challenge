@@ -23,7 +23,7 @@ This is my professional portfolio available for prospect employers to view.  The
 
 ![About Me](https://zmag33z.github.io/week-2-challenge/assets/images/aboutme.png)
 
-![Work](https://zmag33z.github.io/week-2-challenge/assets/images/works.png)
+![Work](https://zmag33z.github.io/week-2-challenge/assets/images/newworks.png)
 
 ![Contact Me](https://zmag33z.github.io/week-2-challenge/assets/images/contact.png)
 

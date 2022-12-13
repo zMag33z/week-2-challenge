@@ -149,7 +149,7 @@ img {
 .a2 {
     color: var(--BoxWord);
     font-size: 150%;
-    /* text-decoration: none; */
+    text-decoration: none;
     padding: 10px 10px 23px 5px;
     background-color: var(--WordBox);
     position: absolute;
