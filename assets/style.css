@@ -149,7 +149,7 @@ img {
 .a2 {
     color: var(--BoxWord);
     font-size: 150%;
-    text-decoration: none;
+    /* text-decoration: none; */
     padding: 10px 10px 23px 5px;
     background-color: var(--WordBox);
     position: absolute;
@@ -198,7 +198,7 @@ h5 {
 and they don't slowly flex down. Next build with more experience 
 I now know to keep other things in mind. And loads of resources say
 'To start at the smaller display and work up.  It helps smaller displays
-load faster. But each screen media displays as I wanted. */
+load faster. But each screen media displays as I        ed. */
 
 /* New Display size. */
 @media screen and (max-width: 1669px) {
